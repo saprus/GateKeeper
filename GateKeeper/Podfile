@@ -1,0 +1,21 @@
+platform :ios, '13.0'  # Use iOS 13.0 or higher
+
+target 'GateKeeper' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  pod 'Firebase/Analytics'
+  pod 'Firebase/Messaging'
+
+  # Pods for GateKeeper
+
+  target 'GateKeeperTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'GateKeeperUITests' do
+    # Pods for testing
+  end
+
+end
