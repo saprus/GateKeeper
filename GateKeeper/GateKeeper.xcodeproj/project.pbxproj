@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0ABAE7B2CD2DECA8CD719019 /* Pods_GateKeeper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 391B97981EE421C2F6AD3D65 /* Pods_GateKeeper.framework */; };
+		142201B63A58F1AC20BE6F84 /* Pods_GateKeeper_GateKeeperUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3883C41776A0F9DA23F72E95 /* Pods_GateKeeper_GateKeeperUITests.framework */; };
+		1CD396E35364E6EAE28FD902 /* Pods_GateKeeperTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF56638A7A01ECC295AA492D /* Pods_GateKeeperTests.framework */; };
 		D279C7912C8E392000612B15 /* GateKeeperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D279C7902C8E392000612B15 /* GateKeeperApp.swift */; };
 		D279C7932C8E392000612B15 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D279C7922C8E392000612B15 /* ContentView.swift */; };
 		D279C7952C8E392300612B15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D279C7942C8E392300612B15 /* Assets.xcassets */; };
@@ -14,6 +17,7 @@
 		D279C7A22C8E392400612B15 /* GateKeeperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D279C7A12C8E392400612B15 /* GateKeeperTests.swift */; };
 		D279C7AC2C8E392400612B15 /* GateKeeperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D279C7AB2C8E392400612B15 /* GateKeeperUITests.swift */; };
 		D279C7AE2C8E392400612B15 /* GateKeeperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D279C7AD2C8E392400612B15 /* GateKeeperUITestsLaunchTests.swift */; };
+		D279C7BB2C8E514700612B15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D279C7BA2C8E514700612B15 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		25D984952E015D75A2976D5B /* Pods-GateKeeper-GateKeeperUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GateKeeper-GateKeeperUITests.debug.xcconfig"; path = "Target Support Files/Pods-GateKeeper-GateKeeperUITests/Pods-GateKeeper-GateKeeperUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2F584FBC11DE70A8E07E75E8 /* Pods-GateKeeper-GateKeeperUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GateKeeper-GateKeeperUITests.release.xcconfig"; path = "Target Support Files/Pods-GateKeeper-GateKeeperUITests/Pods-GateKeeper-GateKeeperUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3883C41776A0F9DA23F72E95 /* Pods_GateKeeper_GateKeeperUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GateKeeper_GateKeeperUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		391B97981EE421C2F6AD3D65 /* Pods_GateKeeper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GateKeeper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42B6D10BB1EC3A77CA1620D1 /* Pods-GateKeeperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GateKeeperTests.debug.xcconfig"; path = "Target Support Files/Pods-GateKeeperTests/Pods-GateKeeperTests.debug.xcconfig"; sourceTree = "<group>"; };
+		50996D27EA8F8724A07525D1 /* Pods-GateKeeper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GateKeeper.debug.xcconfig"; path = "Target Support Files/Pods-GateKeeper/Pods-GateKeeper.debug.xcconfig"; sourceTree = "<group>"; };
+		71A2BDF57C4DE3AB03C6C61E /* Pods-GateKeeper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GateKeeper.release.xcconfig"; path = "Target Support Files/Pods-GateKeeper/Pods-GateKeeper.release.xcconfig"; sourceTree = "<group>"; };
 		D279C78D2C8E392000612B15 /* GateKeeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GateKeeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D279C7902C8E392000612B15 /* GateKeeperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GateKeeperApp.swift; sourceTree = "<group>"; };
 		D279C7922C8E392000612B15 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +55,9 @@
 		D279C7A72C8E392400612B15 /* GateKeeperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GateKeeperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D279C7AB2C8E392400612B15 /* GateKeeperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GateKeeperUITests.swift; sourceTree = "<group>"; };
 		D279C7AD2C8E392400612B15 /* GateKeeperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GateKeeperUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D279C7BA2C8E514700612B15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5836D9D217D7341B970FEFB /* Pods-GateKeeperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GateKeeperTests.release.xcconfig"; path = "Target Support Files/Pods-GateKeeperTests/Pods-GateKeeperTests.release.xcconfig"; sourceTree = "<group>"; };
+		FF56638A7A01ECC295AA492D /* Pods_GateKeeperTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GateKeeperTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ABAE7B2CD2DECA8CD719019 /* Pods_GateKeeper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CD396E35364E6EAE28FD902 /* Pods_GateKeeperTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,12 +81,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				142201B63A58F1AC20BE6F84 /* Pods_GateKeeper_GateKeeperUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0437CEF499A6E40B8FE284EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				391B97981EE421C2F6AD3D65 /* Pods_GateKeeper.framework */,
+				3883C41776A0F9DA23F72E95 /* Pods_GateKeeper_GateKeeperUITests.framework */,
+				FF56638A7A01ECC295AA492D /* Pods_GateKeeperTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5BA769B56023BDDD8A0995C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				50996D27EA8F8724A07525D1 /* Pods-GateKeeper.debug.xcconfig */,
+				71A2BDF57C4DE3AB03C6C61E /* Pods-GateKeeper.release.xcconfig */,
+				25D984952E015D75A2976D5B /* Pods-GateKeeper-GateKeeperUITests.debug.xcconfig */,
+				2F584FBC11DE70A8E07E75E8 /* Pods-GateKeeper-GateKeeperUITests.release.xcconfig */,
+				42B6D10BB1EC3A77CA1620D1 /* Pods-GateKeeperTests.debug.xcconfig */,
+				F5836D9D217D7341B970FEFB /* Pods-GateKeeperTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D279C7842C8E392000612B15 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +118,8 @@
 				D279C7A02C8E392400612B15 /* GateKeeperTests */,
 				D279C7AA2C8E392400612B15 /* GateKeeperUITests */,
 				D279C78E2C8E392000612B15 /* Products */,
+				5BA769B56023BDDD8A0995C6 /* Pods */,
+				0437CEF499A6E40B8FE284EA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +136,7 @@
 		D279C78F2C8E392000612B15 /* GateKeeper */ = {
 			isa = PBXGroup;
 			children = (
+				D279C7BA2C8E514700612B15 /* AppDelegate.swift */,
 				D279C7902C8E392000612B15 /* GateKeeperApp.swift */,
 				D279C7922C8E392000612B15 /* ContentView.swift */,
 				D279C7942C8E392300612B15 /* Assets.xcassets */,
@@ -134,9 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D279C7B12C8E392400612B15 /* Build configuration list for PBXNativeTarget "GateKeeper" */;
 			buildPhases = (
+				8230B45FAE281049C0878FAF /* [CP] Check Pods Manifest.lock */,
 				D279C7892C8E392000612B15 /* Sources */,
 				D279C78A2C8E392000612B15 /* Frameworks */,
 				D279C78B2C8E392000612B15 /* Resources */,
+				8C6132159ECA17AF1D0DAA4A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +196,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D279C7B42C8E392400612B15 /* Build configuration list for PBXNativeTarget "GateKeeperTests" */;
 			buildPhases = (
+				94BDFEDD0F003F17EC029A7A /* [CP] Check Pods Manifest.lock */,
 				D279C7992C8E392400612B15 /* Sources */,
 				D279C79A2C8E392400612B15 /* Frameworks */,
 				D279C79B2C8E392400612B15 /* Resources */,
@@ -169,9 +215,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D279C7B72C8E392400612B15 /* Build configuration list for PBXNativeTarget "GateKeeperUITests" */;
 			buildPhases = (
+				60172CE4C108B1DF57E0CCD4 /* [CP] Check Pods Manifest.lock */,
 				D279C7A32C8E392400612B15 /* Sources */,
 				D279C7A42C8E392400612B15 /* Frameworks */,
 				D279C7A52C8E392400612B15 /* Resources */,
+				3992DC6D8EB4A6CC989829B7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,11 +300,115 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3992DC6D8EB4A6CC989829B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GateKeeper-GateKeeperUITests/Pods-GateKeeper-GateKeeperUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GateKeeper-GateKeeperUITests/Pods-GateKeeper-GateKeeperUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GateKeeper-GateKeeperUITests/Pods-GateKeeper-GateKeeperUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60172CE4C108B1DF57E0CCD4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GateKeeper-GateKeeperUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8230B45FAE281049C0878FAF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GateKeeper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C6132159ECA17AF1D0DAA4A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GateKeeper/Pods-GateKeeper-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GateKeeper/Pods-GateKeeper-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GateKeeper/Pods-GateKeeper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94BDFEDD0F003F17EC029A7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GateKeeperTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D279C7892C8E392000612B15 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D279C7BB2C8E514700612B15 /* AppDelegate.swift in Sources */,
 				D279C7932C8E392000612B15 /* ContentView.swift in Sources */,
 				D279C7912C8E392000612B15 /* GateKeeperApp.swift in Sources */,
 			);
@@ -416,6 +568,7 @@
 		};
 		D279C7B22C8E392400612B15 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50996D27EA8F8724A07525D1 /* Pods-GateKeeper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -445,6 +598,7 @@
 		};
 		D279C7B32C8E392400612B15 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71A2BDF57C4DE3AB03C6C61E /* Pods-GateKeeper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -474,6 +628,7 @@
 		};
 		D279C7B52C8E392400612B15 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42B6D10BB1EC3A77CA1620D1 /* Pods-GateKeeperTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +649,7 @@
 		};
 		D279C7B62C8E392400612B15 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5836D9D217D7341B970FEFB /* Pods-GateKeeperTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -514,6 +670,7 @@
 		};
 		D279C7B82C8E392400612B15 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25D984952E015D75A2976D5B /* Pods-GateKeeper-GateKeeperUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +689,7 @@
 		};
 		D279C7B92C8E392400612B15 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F584FBC11DE70A8E07E75E8 /* Pods-GateKeeper-GateKeeperUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
